@@ -1,0 +1,180 @@
+#welcome {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 50%;
+  position: fixed;
+  padding: 3em 2em 1em;
+}
+#home-page #welcome {
+  background: url('../images/face.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#logo {
+  background: url(../images/onews.svg) no-repeat;
+  background-size: 35px;
+  background-position: 0 4px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 100px;
+  padding-left: 50px;
+  font-size: 1.8em;
+  line-height: 1em;
+}
+#logo a {
+  color: white;
+  text-decoration: none;
+}
+#welcome-message {
+  text-align: right;
+  align-self: flex-end;
+  width: 75%;
+  display: block;
+  color: white;
+}
+#welcome-message h1 span {
+  font-size: 0.5em;
+  font-weight: 400;
+  font-style: italic;
+}
+#menu {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: flex-end;
+
+}
+#menu a {
+  color: white;
+  margin-left: 2em;
+}
+
+#content {
+  margin-left: 50%;
+  overflow-y: auto;
+  width: 50%;
+}
+#content-header {
+  border-bottom: 1px solid #eaeaea;
+  padding: 1em 2em;
+  background-color: #f9f9f9;
+}
+
+#posts {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.post {
+  width: 50%;
+  border-bottom: 1px solid #eaeaea;
+  border-right: 1px solid #eaeaea;
+  padding: 2em;
+}
+.meta {
+  font-size: 0.8em;
+  margin: 1em 0;
+}
+.meta-icon {
+  width: 2em;
+  margin-right: 10px;
+}
+
+.meta-date {
+  color: #999;
+}
+.post-title {
+  margin: 1em 0;
+}
+
+.post .post-read {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.post-work .badge{
+  background-color: #0766F0;
+}
+
+.post-news .badge{
+  background-color: #98DC62;
+}
+.post-team .badge{
+  background-color: #DC5E53;
+}
+
+.badge:hover{
+  color: #999;
+  text-decoration: none;
+  background-color: white;
+  border: 1px solid #999;
+}
+.badge {
+  text-transform: uppercase;
+  padding: 0.3em 0.5em;
+  border-radius: 3px;
+  background-color: #999;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.8em
+}
+
+#form {
+  border: 1px solid #eaeaea;
+  margin: 40px;
+  padding: 40px;
+}
+
+.greybackgroundform {
+  border-left: none !important;
+  border-top: none !important;
+  border-right: none !important;
+  background-color: #F9F9F9;
+  border-bottom: 1px solid #39ADB2;
+}
+
+#lastname {
+  margin-bottom: 10px;
+}
+
+#date {
+  margin-bottom: 10px;
+}
+
+#message {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+#message::placeholder {
+  padding-left: 15px;
+  padding-top: 20px;
+}
+
+.paddingtextarea {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.paddingcertification {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.uploadbutton {
+  margin-top: 8px;
+  margin-bottom: 17px;
+}
+
+.sendbutton {
+
+}
